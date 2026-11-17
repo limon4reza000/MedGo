@@ -5,7 +5,7 @@ import React from "react";
 export const MedSupportLogo: React.FC<{
   className?: string;
   iconOnly?: boolean;
-}> = ({ className = "h-9 w-auto", iconOnly = false }) => {
+}> = ({ className = "h-11 w-auto", iconOnly = false }) => {
   return (
     <div className="inline-flex items-center shrink-0">
       <img

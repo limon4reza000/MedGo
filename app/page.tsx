@@ -863,7 +863,7 @@ export default function MobileAppPage() {
                     className="flex items-center shrink-0 active:scale-95 transition-transform"
                     title="MedGo Home"
                   >
-                    <img src="/bike-logo.png" alt="MedGo" style={{ maxHeight: "32px", width: "auto" }} className="h-8 max-h-8 w-auto object-contain shrink-0 drop-shadow-xs" />
+                    <img src="/bike-logo.png" alt="MedGo" style={{ maxHeight: "42px", width: "auto" }} className="h-10 sm:h-11 max-h-10 sm:max-h-11 w-auto object-contain shrink-0 drop-shadow-xs" />
                   </button>
                   <button
                     onClick={() => setIsDrawerOpen(false)}
@@ -976,8 +976,8 @@ export default function MobileAppPage() {
           <img
             src="/bike-logo.png"
             alt="MedGo"
-            style={{ maxHeight: "36px", width: "auto" }}
-            className="h-9 max-h-9 w-auto object-contain drop-shadow-xs group-hover:scale-105 transition-transform shrink-0"
+            style={{ maxHeight: "46px", width: "auto" }}
+            className="h-11 max-h-11 sm:h-12 sm:max-h-12 w-auto object-contain drop-shadow-xs group-hover:scale-105 transition-transform shrink-0"
           />
         </button>
 

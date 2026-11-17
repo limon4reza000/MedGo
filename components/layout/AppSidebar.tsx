@@ -172,7 +172,7 @@ export const AppSidebar: React.FC = () => {
           <img
             src="/bike-logo.png"
             alt="MedGo"
-            className="h-9 sm:h-10 max-h-9 sm:max-h-10 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
+            className="h-11 sm:h-12 max-h-11 sm:max-h-12 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
           />
         </Link>
       </div>

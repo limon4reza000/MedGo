@@ -227,7 +227,7 @@ export const HamburgerDrawer: React.FC = () => {
               <img
                 src="/bike-logo.png"
                 alt="MedGo"
-                className="h-8 sm:h-9 max-h-8 sm:max-h-9 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
+                className="h-10 sm:h-11 max-h-10 sm:max-h-11 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
               />
             </Link>
             <button
