@@ -834,3 +834,4 @@ python scripts/test_dashboard_features.py
 - **Academic Context:** Capstone Senior Design Project, Department of Computer Science and Engineering.
 - **Supervisory Details:** *Not explicitly stated in repository source files (marked as Academic Design Project).*
 - **External Dependencies:** Directorate General of Drug Administration (DGDA) Registered Medicine List dataset.
+

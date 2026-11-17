@@ -102,15 +102,12 @@ export const RootLayoutWrapper: React.FC<{ children: ReactNode }> = ({ children 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-[#31256A]">
                 
                 <div className="space-y-3">
-                  <Link href="/" className="inline-flex items-center gap-2 group" title="MedGo Home">
+                  <Link href="/" className="inline-flex items-center group" title="MedGo Home">
                     <img
-                      src="/logo.png"
+                      src="/bike-logo.png"
                       alt="MedGo"
-                      className="h-7 max-h-7 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
+                      className="h-8 sm:h-9 max-h-8 sm:max-h-9 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
                     />
-                    <span className="text-lg font-normal tracking-tight text-white group-hover:text-[#139485] transition-colors whitespace-nowrap">
-                      Med<span className="text-[#139485]">Go</span>
-                    </span>
                   </Link>
                   <p className="text-xs text-slate-300 leading-relaxed font-medium">
                     Smart Pharmaceutical Supply Network — Order Cutting, FEFO Inventory Distribution & Credit Management.

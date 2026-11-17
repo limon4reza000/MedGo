@@ -168,15 +168,12 @@ export const AppSidebar: React.FC = () => {
     <aside className="hidden lg:flex flex-col w-[275px] shrink-0 h-screen sticky top-0 bg-white text-slate-800 border-r border-slate-200/80 select-none z-30 overflow-y-auto scrollbar-none relative">
       {/* Brand Header with Prominent Logo and MedGo Text */}
       <div className="px-5 pt-6 pb-4 mb-1">
-        <Link href="/" className="flex items-center gap-2 group" title="MedGo Home">
+        <Link href="/" className="flex items-center group" title="MedGo Home">
           <img
-            src="/logo.png"
+            src="/bike-logo.png"
             alt="MedGo"
-            className="h-8 sm:h-9 max-h-8 sm:max-h-9 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
+            className="h-9 sm:h-10 max-h-9 sm:max-h-10 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-xs shrink-0"
           />
-          <span className="text-xl font-normal tracking-tight text-slate-900 group-hover:text-[#139485] transition-colors whitespace-nowrap">
-            Med<span className="text-[#139485]">Go</span>
-          </span>
         </Link>
       </div>
 

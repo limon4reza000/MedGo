@@ -854,13 +854,17 @@ export default function MobileAppPage() {
               {/* Drawer Content */}
               <div className="relative ml-auto w-64 h-full bg-white shadow-2xl flex flex-col z-10 animate-in slide-in-from-right duration-200">
                 {/* Drawer Header */}
-                <div className="bg-[#139485] p-3.5 text-white flex items-center justify-between">
-                  <div className="flex items-center gap-1.5 shrink-0">
-                    <img src="/logo.png" alt="MedGo" style={{ maxHeight: "20px", width: "auto" }} className="h-5 max-h-5 w-auto object-contain shrink-0" />
-                    <span className="text-base font-normal tracking-tight text-white whitespace-nowrap">
-                      MedGo
-                    </span>
-                  </div>
+                <div className="bg-[#139485] p-3 text-white flex items-center justify-between">
+                  <button
+                    onClick={() => {
+                      setActiveScreen("DASHBOARD");
+                      setIsDrawerOpen(false);
+                    }}
+                    className="flex items-center shrink-0 active:scale-95 transition-transform"
+                    title="MedGo Home"
+                  >
+                    <img src="/bike-logo.png" alt="MedGo" style={{ maxHeight: "32px", width: "auto" }} className="h-8 max-h-8 w-auto object-contain shrink-0 drop-shadow-xs" />
+                  </button>
                   <button
                     onClick={() => setIsDrawerOpen(false)}
                     className="p-1 rounded-lg hover:bg-white/10 text-white/80 hover:text-white transition-colors"
@@ -966,18 +970,15 @@ export default function MobileAppPage() {
         {/* Left: Brand Logo from Asset */}
         <button
           onClick={() => setActiveScreen("DASHBOARD")}
-          className="flex items-center gap-1.5 shrink-0 active:scale-95 transition-transform group"
+          className="flex items-center shrink-0 active:scale-95 transition-transform group"
           title="MedGo Home"
         >
           <img
-            src="/logo.png"
+            src="/bike-logo.png"
             alt="MedGo"
-            style={{ maxHeight: "28px", width: "auto" }}
-            className="h-7 max-h-7 w-auto object-contain drop-shadow-xs group-hover:scale-105 transition-transform shrink-0"
+            style={{ maxHeight: "36px", width: "auto" }}
+            className="h-9 max-h-9 w-auto object-contain drop-shadow-xs group-hover:scale-105 transition-transform shrink-0"
           />
-          <span className="text-lg font-normal tracking-tight text-white whitespace-nowrap">
-            MedGo
-          </span>
         </button>
 
         {/* Right: Notification Bell & +Borrow Action Button */}
